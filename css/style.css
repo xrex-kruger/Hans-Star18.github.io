@@ -1,13 +1,7 @@
-/* =================================
-------------------------------------
-  Game Warrior Template
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-/*---------------------------*/
-/* Template default CSS
-/*---------------------------*/
+/* custom css */
+.text-overview {
+	text-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+}
 
 html,
 body {
@@ -255,6 +249,9 @@ ol {
 	overflow: hidden;
 	padding: 18px 0;
 	border-bottom: 1px solid #ffb320;
+	position: fixed;
+	width: 100%;
+	z-index: 10000000000;
 }
 
 .site-logo {
@@ -314,6 +311,10 @@ ol {
 /*------------------
   Hero Section
 ---------------------*/
+
+.hero-section {
+	padding-top: 80px;
+}
 
 .hero-slider .hs-item {
 	height: 865px;
